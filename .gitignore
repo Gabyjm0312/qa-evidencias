@@ -1,0 +1,42 @@
+# Entorno virtual
+.venv/
+env/
+venv/
+
+# Cachés de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Carpeta de salidas si quieres que no se suba
+evidencias_out/
+salida_api/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+# Entorno virtual
+.venv/
+env/
+venv/
+
+# Cachés de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Carpeta de salidas si quieres que no se suba
+evidencias_out/
+salida_api/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
