@@ -3,4 +3,4 @@ python-docx
 fastapi
 uvicorn
 python-multipart
-
+openpyxl
