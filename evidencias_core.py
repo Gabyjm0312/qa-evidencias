@@ -27,10 +27,8 @@ DEFAULT_MAP = {
     "pasos": "Pasos para Ejecución",
     "esperado": "Resultado Esperado",
     "obtenido": "Resultado Obtenido",
-    "estado": "Estado de Prueba",
-    "sla": "SLA",
     "fecha": "Fecha de Ejecución de Prueba",
-    "tiempo": "Tiempo de Prueba (HH:MM)"
+    
 }
 
 
@@ -154,10 +152,7 @@ def build_consolidated(rows: list[dict], out_file: Path):
             ("Sistema", row.get("sistema", "")),
             ("Módulo", row.get("modulo", "")),
             ("Tipo de Prueba", row.get("tipo", "")),
-            ("Estado", row.get("estado", "")),
-            ("SLA", row.get("sla", "")),
             ("Fecha de Ejecución", row.get("fecha", "")),
-            ("Tiempo (HH:MM)", row.get("tiempo", "")),
             ("Datos de Prueba", row.get("datos", "")),
             ("Pre-requisitos", row.get("prereq", "")),
         ])
