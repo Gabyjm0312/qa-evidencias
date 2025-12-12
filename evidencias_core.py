@@ -19,8 +19,8 @@ DEFAULT_MAP = {
     "id": "Id caso de prueba",
     "ciclo": "Ciclo de Prueba",
     "sistema": "Sistema",
-    "modulo": "Modulo a probar",
-    "objetivo": "Objetivo/Descripción",
+    "modulo": "Titulo / Flujo Funcional / Menu",
+    "objetivo": "Descripcion de la Prueba",
     "datos": "Datos de Prueba",
     "tipo": "Tipo de Prueba",
     "prereq": "Pre-requisitos",
@@ -30,6 +30,7 @@ DEFAULT_MAP = {
     "fecha": "Fecha de Ejecución de Prueba",
     
 }
+
 
 
 def _col(df, name):
